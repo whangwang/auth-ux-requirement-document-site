@@ -352,15 +352,22 @@ Read/unread tracking is supported.
 Priority announcements can be sent via SMS for urgent matters.
 Students can review historical announcements with full search and filter capabilities.",MVP,,In Progress (Iterative Design),1,4.78,1,0.5,3,0.79667,"Preferences, Student Comms","Bronwyn Hazelwood, CJ Hogan and Nick Miller
 (Student Comms)",,
-2.09.d,2. Stay organised and updated,"3. Messages, tasks and records",VS2.09,Unified messaging,"As a student, I want a single, prioritized inbox for all university-wide and coursework notifications and messages—including urgent emergency alerts and time-limited opportunities—so I can quickly act on what matters and never miss important updates.",Notices (UX Improved),"As a student, I want improved access to notices with advanced management tools, so I can filter, sort, search, archive, and track read status efficiently.","Notices can be filtered by status, category, and date.
-Full-text search is available for notification titles and content.
-Students can sort and archive notices.
-Read/unread tracking is supported.",MVP,,To Do,1,4.27,1,0.5,3,0.71167,,,,
 2.09.e,2. Stay organised and updated,"3. Messages, tasks and records",VS2.09,Unified messaging,"As a student, I want a single, prioritized inbox for all university-wide and coursework notifications and messages—including urgent emergency alerts and time-limited opportunities—so I can quickly act on what matters and never miss important updates.",Notice overview,"As a student, I want a notice overview widget to quickly see my most recent notices, so I can stay updated without navigating multiple pages.","A notice overview widget is available for inclusion on multiple portal pages (e.g. dashboard).
 The widget surfaces the most recent notices at a glance.
 Notices in the overview are clickable to access full content.",Current State,,In Progress (Iterative Design),1,4.27,1,0.5,3,0.71167,"Preferences, Student Comms","Bronwyn Hazelwood, CJ Hogan and Nick Miller
 (Student Comms)",,
 2.09.f,2. Stay organised and updated,"3. Messages, tasks and records",VS2.09,Unified messaging,"As a student, I want a single, prioritized inbox for all university-wide and coursework notifications and messages—including urgent emergency alerts and time-limited opportunities—so I can quickly act on what matters and never miss important updates.",Notices,"As a student, I want access to current notices in the student portal, so I can stay informed about university-wide communications.",Students can view notices as currently available in the portal.,Current State,,To Do,1,4.27,1,0.5,3,0.71167,,,,
+2.09.d,2. Stay organised and updated,"3. Messages, tasks and records",VS2.09,Unified messaging,"As a student, I want a single, prioritized inbox for all university-wide and coursework notifications and messages—including urgent emergency alerts and time-limited opportunities—so I can quickly act on what matters and never miss important updates.",Notices (UX Improved),"As a student, I want improved access to notices with advanced management tools, so I can filter, sort, search, archive, and track read status efficiently.","Notices can be filtered by status, category, and date.
+Full-text search is available for notification titles and content.
+Students can sort and archive notices.
+Read/unread tracking is supported.",MVP,,To Do,1,4.27,1,0.5,3,0.71167,,,,
+2.09.h,2. Stay organised and updated,"3. Messages, tasks and records",VS2.09,Unified messaging,"As a student, I want a single, prioritized inbox for all university-wide and coursework notifications and messages—including urgent emergency alerts and time-limited opportunities—so I can quickly act on what matters and never miss important updates.",Priority unified messages,"As a student, I want to access priority actionable communications (eg. student services, LMS, safety and security, IT tickets), so I can see my priority updates in one place without checking multiple apps or wading through my email.","Messages feed aggregates content from: Student Portal Notices (CMS), Priority Student Services, Canvas (Subject updates/Grades), ServiceNow (IT Ticket updates), and SafeZone (Emergency Alerts).
+Items are clearly tagged or icon-coded by source system for quick recognition.
+Urgent alerts (SafeZone) take visual precedence at the top of the list, regardless of date.
+Clicking an item deep-links to the specific record in the source system (e.g., deep link to the specific Canvas assignment).
+Notifications are sorted chronologically by default, with an option to filter by category.
+Does not include student email content.",Target State,,To Do,1,4.27,1,0.5,3,0.71167,,,,"SafeZone Command Centre, OneCRM (Salesforce), Student Service systems to-be-defined"
+2.09.i,2. Stay organised and updated,"3. Messages, tasks and records",VS2.09,Unified messaging,"As a student, I want a single, prioritized inbox for all university-wide and coursework notifications and messages—including urgent emergency alerts and time-limited opportunities—so I can quickly act on what matters and never miss important updates.",Unified messages (incl. Email),"As a student, I want to access all of my priority and actionable university communications (including email updates and all student services), so I can see all of my priority updates in one place without checking multiple apps or wading through my email.",The unified feed aggregatespriority actionable content from all sources including the student's University email account (Outlook/Exchange).,Future State,,To Do,1,4.27,1,0.5,3,0.71167,,,,Email
 2.09.g,2. Stay organised and updated,"3. Messages, tasks and records",VS2.09,Unified messaging,"As a student, I want a single, prioritized inbox for all university-wide and coursework notifications and messages—including urgent emergency alerts and time-limited opportunities—so I can quickly act on what matters and never miss important updates.",Urgent annoucement alert,"As a student, I want urgent announcements to appear immediately when I log in, so I never miss critical updates.","Urgent announcements trigger an immediate alert upon login (e.g., modal/pop-up).
 Students can view the full content of the urgent announcement.
 Alerts are persistent on dashboard until acknowledged.
@@ -463,6 +470,11 @@ Provides access to tools and services for alumni, such as alumni portal and othe
 Students can track their progress through offboarding steps in the portal.
 Information is updated periodically to reflect any changes or new opportunities.",Future State,,To Do,1,3.2,0.2,0.5,2.5,0.64,,,,
 1.02.b,2. Stay organised and updated,4. My course,VS1.02,Special consideration,"As a student I need the special consideration process to remove barriers, protect my privacy, and feel supported with clarity and care—especially when I'm most vulnerable.",Access to special consideration,"Students are provided with information about special consideration when accessing course progress related content, so that students are reminded the University is available to support them in special circumstances and students don't miss out on understanding how special consideration works.",Provide links to learn about Special Consideration where appropriate such as in a 'You might be interested in' panel along with study results or course progress related pages.,Target State,,To Do,1,3,0.1,0.5,2.5,0.6,,,,
+1.02.c,2. Stay organised and updated,4. My course,VS1.02,Special consideration,"As a student I need the special consideration process to remove barriers, protect my privacy, and feel supported with clarity and care—especially when I'm most vulnerable.",Helping students parse special consideration application,"As a student, I want the system to guide me to the correct process for submitting a special consideration application based on my assessment type, course rules, and cohort, so I can avoid wasting time on incorrect submissions.","System evaluates if the student is in the correct process based on assessment type, university rules and student cohort.
+Provides a warning if the student is attempting submission via the wrong process.
+Offers clear guidance and links to alternative processes, forms, or contacts as needed.
+Ensures that guidance is confidential and privacy-conscious.
+Students can still proceed with submission only after acknowledging the warning.",Future State,,To Do,1,3,0.1,,2.5,0,,,,
 1.02.a,2. Stay organised and updated,4. My course,VS1.02,Special consideration,"As a student I need the special consideration process to remove barriers, protect my privacy, and feel supported with clarity and care—especially when I'm most vulnerable.",Special consideration result prediction,"As a student, I want to see an AI-generated prediction of my special consideration result before submitting my application, so I can feel supported, ensure I have uploaded necessary documents, and be aware of my likelihood of approval.","Provides AI prediction of likely or less likely approval based on historical data and student-provided information.
 Clearly marks that the prediction is supportive information only, not an university decision or instruction.
 If the prediction is less likely, the system provides reasoning explaining why the application may fail.
@@ -475,11 +487,55 @@ Provides an action button or link to visit the MyTimetable system to edit prefer
 Updates dynamically to reflect the latest status from the MyTimetable system.
 Supports visibility of both allocated subjects and key timetable metadata for clarity.",MVP,,To Do,1,1,0.1,0.5,2.5,0.2,,,,"MyTimetable, TimeEdit, Manual Timetable Spreadsheets"
 5.08.a,"3. Access services, help and advice",5. Accessing student services,VS5.08,Apply & Commit,"Enable students to seamlessly transition from interest to action by providing unified, friction-free mechanisms to register, book, or submit requests for services.",Submit service requests,"As a student who has identified a need, I want to easily submit service requests, book an appointment, register for an event, or submit an application form in one place, so that I can secure the support or opportunity I need without navigating complex administrative hurdles.",,Target State,,In Progress (Iterative Design),1,1,0.1,0.5,2.5,0.2,,,"SSTP Service Model & Experience, SASS Student Admin","OneCRM (Forms), Apex (Legacy), Qualtrics"
+5.07.d,"3. Access services, help and advice",5. Accessing student services,VS5.07,Awareness & Exploration,"Proactively surface relevant services, events, and support options to students based on their profile and cohort, moving beyond passive search to active discovery.",Exploring student services,"As a student unaware of what student services are available, I want to search for specific support services or access the full university services directory, so that I can find the right support for my needs, whether I know exactly what I am looking for or need to browse.","1. Service Search
+A search input field specifically for finding student services and support.
+
+When a student enters a keyword (e.g., ""Counselling,"" ""Clubs,"" ""Financial Aid""), the system returns a list of matching results.
+
+Clicking a search result deep-links the user directly to the relevant service page or information source.
+
+2. Link to full service directory
+The page displays a prominent ""Explore all Student Services"" link or button.
+
+This link opens the public University Student Services directory (e.g., students.unimelb.edu.au) in a new browser tab.
+
+3. Search fallback
+If a student's search returns no local results, the system provides them with the ""Explore all"" link to ensure they do not hit a dead end.",MVP,,To Do,1,1,0.1,,2.5,0,,,,
 5.07.a,"3. Access services, help and advice",5. Accessing student services,VS5.07,Awareness & Exploration,"Proactively surface relevant services, events, and support options to students based on their profile and cohort, moving beyond passive search to active discovery.",Next step recommendations,Suggests actions relevant and personalised to the student.,,Target State,,In Progress (Iterative Design),1,1,0.1,0.5,2.5,0.2,,,,
 5.07.b,"3. Access services, help and advice",5. Accessing student services,VS5.07,Awareness & Exploration,"Proactively surface relevant services, events, and support options to students based on their profile and cohort, moving beyond passive search to active discovery.",Timely link suggestions,Recommendations tailored to page content and the student’s profile.,,Target State,,In Progress (Iterative Design),1,1,0.1,0.5,2.5,0.2,,,,
 5.07.c,"3. Access services, help and advice",5. Accessing student services,VS5.07,Awareness & Exploration,"Proactively surface relevant services, events, and support options to students based on their profile and cohort, moving beyond passive search to active discovery.",Transparent reasoning,Suggestions include a short explanation why they are recommended.,,Target State,,In Progress (Iterative Design),1,1,0.1,0.5,2.5,0.2,,,,
 5.10.a,"3. Access services, help and advice",5. Accessing student services,VS5.10,Conclusion & Transition,"Manage the closure of service interactions, including providing outcomes, capturing feedback, and guiding the student toward their next logical step or lifecycle stage (e.g., graduation/offboarding).",Conclusion & Transition,"As a student finishing a service interaction, I want to view the final outcome of my requests, provide feedback, and understand my offboarding requirements, so that I can close the loop on my administrative tasks and move forward with confidence.",,Target State,,To Do,1,1,0.1,0.5,2.5,0.2,,,,
 5.09.a,"3. Access services, help and advice",5. Accessing student services,VS5.09,Participation & Engagement,"Support the student during the active consumption of the service or event by providing reminders, wayfinding, and management tools to ensure they show up and engage effectively.",Digital system status and outages,"Manage my digital services, report a problem that I can't solve myself, or plan for an ongoing issue or outage that could impact me or other students.",,Target State,,To Do,1,3,0.1,0.5,1,1.5,,,,
+5.09.b,"3. Access services, help and advice",5. Accessing student services,VS5.09,Participation & Engagement,"Support the student during the active consumption of the service or event by providing reminders, wayfinding, and management tools to ensure they show up and engage effectively.",Progress chasing,"As a student awaiting an outcome, I want to view a list of my active service requests and their current status (e.g., ""In Progress,"" ""Action Required"") sourced directly from Salesforce, So that I can track my progress in real-time without needing to call or email support for updates.","1. Unified Enquiry List (Salesforce Integration)
+The portal displays a list of the student's support cases and service requests retrieved from the Salesforce (Eg. OneCRM) backend.
+
+The list includes both active/open and recently closed cases.
+
+2. Status Visibility
+Each item in the list clearly displays its current status label as defined in Salesforce (e.g., New, In Progress, Waiting on Student, Closed).
+
+Status labels are visually distinct (e.g., using tags or icons) to allow for quick scanning.
+
+3. Key Case Details
+For MVP, each list item displays minimal essential metadata to help the student identify the request:
+
+Case Reference Number (e.g., CAS-12345-X9X9).
+
+Subject / Title (e.g., ""Special Consideration Application"").
+
+Date Submitted or Last Updated Date.
+
+4. Error Handling (Resilience)
+If the Salesforce integration is unavailable (e.g., API outage), the widget displays a user-friendly error message (e.g., ""We cannot retrieve your enquiries right now. Please try again later."") rather than a blank space or technical code.
+
+5. No Action / Read-Only (MVP Constraint)
+
+Note: For this specific MVP story, the view is read-only. Users can see the status but do not need to reply or upload documents directly within this specific widget (deep-linking to the source system or a separate ""Manage"" story would handle actions).",MVP,,To Do,1,1,0.1,,1,0,,,"SSTP Service Model & Experience, SASS Student Admin","OneCRM (Salesforce), Apex/Qualtrics, Other"
+6.03.b,"3. Access services, help and advice",6. Help and advice,VS6.03,24/7 AI Assistance,"As a student I want support navigating university life with confidence and ease, with instant, personalised, and culturally sensitive support—24/7, across devices, and in multiple languages.",AI Assistance integrated with enquiry search,"As a student, I want to get clear, relevant answers directly within the enquiry search results when possible, so I can quickly get triaged on which university service I should go to for my enquiry.","When starting a new enquiry, AI Assistant evaluates enquiry and provides triage to the most appropriate university service.
+AI-generated responses are clearly marked as generated by AI, distinct from standard search results.
+If AI cannot provide a confident answer, the system redirects to standard enquiry matching results.
+Responses consider keywords entered and relevant student profile information to improve relevance.
+AI enquiry service suggestion appear as a linkout after initial enquiry if it can find a matching service, if not then allow the user to proceed to the enquiry form.",MVP,2,To Do,1,4,0.1,0.5,2.5,0.8,,,,"Search Engine (Funnelback), GenAI Service"
 6.03.a,"3. Access services, help and advice",6. Help and advice,VS6.03,24/7 AI Assistance,"As a student I want support navigating university life with confidence and ease, with instant, personalised, and culturally sensitive support—24/7, across devices, and in multiple languages.",AI Assistance integrated with global search,"As a student, I want to get clear, relevant answers directly within the global search results when possible, so I can quickly get the information I need without navigating multiple systems.","AI Assistant evaluates search queries and provides direct answers when confident.
 AI-generated responses are clearly marked as generated by AI, distinct from standard search results.
 If AI cannot provide a confident answer, the system redirects to standard search results.
@@ -531,6 +587,14 @@ Upon submission, the student receives immediate on-screen confirmation and a Cas
 6.04.b,"3. Access services, help and advice",6. Help and advice,VS6.04,Contact support,"Students should have easy access to various support services. For example, submitting enquiries, booking in-person appointments, or finding contact information for relevant staff.
 
 The portal should present this information in a unified location, as well as through contextual suggestions on pages where the content is relevant.",Provide feedback to help us improve,"Provide an option for students to provide feedback (eg. after completing a process, service or experience) to help us improve our system and services.",,MVP,,To Do,1,3,0.1,0.5,2.5,0.6,,,,"Knowledge Base (Salesforce/Squiz), Booking System, Q-Flow."
+6.05.c,"3. Access services, help and advice",6. Help and advice,VS6.05,Help and support centre,"A centralised, intelligent support hub that empowers students to self-manage their university experience. By consolidating previously fragmented support channels into a single, trusted source of truth, students can access accurate, personalised assistance relevant to their specific cohort and study stage. This reduces administrative anxiety and reliance on assisted support channels, allowing students to focus on their academic success.",Access to Stop 1 digital help and support centre,"As a student, I want to easily locate and navigate to the official Stop 1 support hub (https://students.unimelb.edu.au/student-support/advice-and-help/stop-1) directly from my dashboard so that I can access expert advice, booking forms, and support resources immediately without searching the public website.","Visibility: A prominent ""Get Help"" or ""Stop 1 Support"" call-to-action must be visible on the dashboard or global navigation.
+
+Deep Link: Clicking the support link must redirect the user to the current state Stop 1 help and advice landing page (e.g., students.unimelb.edu.au/support).
+
+Session Management: The external link should open in a new browser tab or window to ensure the user's authenticated portal session remains active (preventing the need to log in again if they return).
+
+Context: The link label should clearly indicate that the user is leaving the portal to view support content (e.g., using an ""external link"" icon).",MVP,,To Do,1,4,0.2,,2.5,0,,"Rachael Brennan and Stephen Caithness, Evange Belios-Oliver
+(Student Admin and Enquiries)","SSTP Service Model & Experience, SASS Student Admin","Squiz, Ask.unimelb, OneCRM (Salesforce)"
 6.05.b,"3. Access services, help and advice",6. Help and advice,VS6.05,Help and support centre,"A centralised, intelligent support hub that empowers students to self-manage their university experience. By consolidating previously fragmented support channels into a single, trusted source of truth, students can access accurate, personalised assistance relevant to their specific cohort and study stage. This reduces administrative anxiety and reliance on assisted support channels, allowing students to focus on their academic success.",Personalised Digital Help Centre,"As a student, I want to access a centralised help hub that intelligently prioritises support topics, services, and enquiry status updates relevant to my specific profile and current study stage, so that I can resolve issues efficiently without sifting through irrelevant institutional information.","The help centre must recognise my student profile (e.g., International vs Domestic, Commencing vs Returning) and display content specific to those attributes.
 
 The system must allow me to view the status of my active support enquiries (e.g., ""In Progress,"" ""Action Required"") in a consolidated view.
